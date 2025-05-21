@@ -1,0 +1,12 @@
+tweepy>=4.14.0
+snscrape>=0.7.0.20230110
+pandas>=1.5.3
+textblob>=0.17.1
+regex>=2022.10.31
+python-dotenv>=1.0.0
+streamlit>=1.32.0
+
+pip install tweepy python-dotenv
+pip install snscrape
+pip install -U textblob
+python -m textblob.download_corpora
